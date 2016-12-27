@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use Sasin91\LaravelInteractions\Interactions\Interactable;
+
+/**
+ * Class DummyClass
+ * @package DummyNamespace;
+ */
+interface DummyClass extends Interactable
+{
+    /**
+     * Handle the interaction.
+     *
+     * @param mixed $parameters
+     * @return mixed
+     */
+    public function handle($parameters);
+}

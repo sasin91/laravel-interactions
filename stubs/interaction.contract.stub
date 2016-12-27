@@ -1,0 +1,23 @@
+<?php
+
+namespace DummyNamespace;
+
+use DummyFullContractClass;
+
+/**
+ * Class DummyClass
+ * @package DummyNamespace;
+ */
+class DummyClass implements DummyContractClass
+{
+    /**
+     * Handle the interaction.
+     *
+     * @param mixed $parameters
+     * @return mixed
+     */
+    public function handle($parameters)
+    {
+        //
+    }
+}

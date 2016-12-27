@@ -1,0 +1,27 @@
+{
+  "name": "sasin91/laravel-interaction",
+  "description": "Laravel 5 - Interactions, inspired by Laravel/Spark.",
+  "keywords": ["laravel", "interaction"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonas Kervin Hansen",
+      "email": "jonas.kerwin.hansen@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.0",
+    "illuminate/console": "~5.0",
+    "illuminate/filesystem": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sasin91\\LaravelInteractions\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev"
+}
