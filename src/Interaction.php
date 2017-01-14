@@ -45,8 +45,9 @@ class Interaction
         if (isset(static::$swappedInteractions[$class])) {
             return self::callSwapped($class, $parameters, $resolved);
         }
-
-        return call_user_func_array([$resolved, $method], $parameters);
+        
+        return $resolved->$method($parameters);
+        //return call_user_func_array([$resolved, $method], $parameters);
     }
 
     /**
